@@ -32,5 +32,23 @@ fn main() {
     let varString: String = String::from("Hello, Rust!");
     println!("varString = {}", varString);
 
-    
+    let age = 20;
+
+    let status = if age >= 18 {
+            "majeur"
+        } else {
+            "mineur"
+    };
+
+    for i in 0..10 {
+        println!("{i}");
+    }
+
+    let mut count = 0;
+    while count < 10 {
+        count += 1;
+    }
+
+    println!("Count: {}", count);
+
 }
