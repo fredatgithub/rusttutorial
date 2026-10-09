@@ -10,26 +10,26 @@ fn main() {
     y = 15;
     println!("y = {}", y);
     let z = 20; // immutable variable
-    let varInt32: i32 = 30;
+    let var_int32: i32 = 30;
     println!("z = {}", z);
     println!("varInt32 = {}", varInt32);
 
-    let varInt64: i64 = 40;
+    let var_int64: i64 = 40;
     println!("varInt64 = {}", varInt64);
 
-    let varFloat32: f32 = 3.14;
+    let var_float32: f32 = 3.14;
     println!("varFloat32 = {}", varFloat32);
 
-    let varFloat64: f64 = 2.71828;
+    let var_float64: f64 = 2.71828;
     println!("varFloat64 = {}", varFloat64);
 
-    let varBool: bool = true;
+    let var_bool: bool = true;
     println!("varBool = {}", varBool);
 
-    let varChar: char = 'A';
+    let var_char: char = 'A';
     println!("varChar = {}", varChar);
 
-    let varString: String = String::from("Hello, Rust!");
+    let var_string: String = String::from("Hello, Rust!");
     println!("varString = {}", varString);
 
     let age = 20;
