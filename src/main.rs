@@ -34,11 +34,7 @@ fn main() {
 
     let age = 20;
 
-    let status = if age >= 18 {
-            "majeur"
-        } else {
-            "mineur"
-    };
+    let status = if age >= 18 { "majeur" } else { "mineur" };
 
     for i in 0..10 {
         println!("{i}");
@@ -50,5 +46,4 @@ fn main() {
     }
 
     println!("Count: {}", count);
-
 }
