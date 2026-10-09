@@ -12,29 +12,29 @@ fn main() {
     let z = 20; // immutable variable
     let var_int32: i32 = 30;
     println!("z = {}", z);
-    println!("varInt32 = {}", varInt32);
+    println!("var_int32 = {}", var_int32);
 
     let var_int64: i64 = 40;
-    println!("varInt64 = {}", varInt64);
+    println!("var_int64 = {}", var_int64);
 
     let var_float32: f32 = 3.14;
-    println!("varFloat32 = {}", varFloat32);
+    println!("var_float32 = {}", var_float32);
 
     let var_float64: f64 = 2.71828;
-    println!("varFloat64 = {}", varFloat64);
+    println!("var_float64 = {}", var_float64);
 
     let var_bool: bool = true;
-    println!("varBool = {}", varBool);
+    println!("var_bool = {}", var_bool);
 
     let var_char: char = 'A';
-    println!("varChar = {}", varChar);
+    println!("var_char = {}", var_char);
 
     let var_string: String = String::from("Hello, Rust!");
-    println!("varString = {}", varString);
+    println!("var_string = {}", var_string);
 
     let age = 20;
 
-    let status = if age >= 18 { "majeur" } else { "mineur" };
+    let _status = if age >= 18 { "majeur" } else { "mineur" };
 
     for i in 0..10 {
         println!("{i}");
